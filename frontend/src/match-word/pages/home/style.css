@@ -1,0 +1,70 @@
+.bg1 {
+    background-image: url('../../assets/bg1.png');
+    width: 100%;
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_login {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5rem;
+    width: 80%;
+    background-color: rgb(255, 255, 255, 0.6);
+    position: absolute;
+    border-radius: 68px;
+    padding: 10px;
+    padding-top: 170px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+    font-family: 'Rubik Wet Paint', cursive;
+    -webkit-box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    border-radius: 30px;
+    height: 64px;
+    padding-left: 25px;
+    font-size: 40px;
+}
+
+div {
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.btn-login {
+    -webkit-box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    width: 207px;
+    border-radius: 30px;
+    height: 70px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+    margin-right: 3rem;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 3rem;
+}
