@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './style/style.css'
 
 function SignUp() {
   return (
@@ -7,7 +7,7 @@ function SignUp() {
         <div className='main_login'>
             <div style={{display: 'flex'}}>
             <h1 className='text-logo' style={{marginLeft: 'auto', marginRight: '0'}}>Match</h1>
-            <img src={require("../../assets/logo.png")} width='228px' height='228px' alt="" style={{marginRight: 'auto', marginLeft: '-80px', marginTop: '-120px'}} />
+            <img src={require("../assets/logo.png")} width='228px' height='228px' alt="" style={{marginRight: 'auto', marginLeft: '-80px', marginTop: '-120px'}} />
             </div>
             <form>
                 <div style={{paddingRight: '4rem', paddingLeft: '4rem'}}>

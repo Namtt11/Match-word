@@ -1,5 +1,5 @@
 import React from 'react'
-import './styleSetting.css'
+import './style/styleSetting.css'
 
 function SettingGeneral() {
   return (
@@ -19,7 +19,7 @@ function SettingGeneral() {
           <div style={{width: '100%', backgroundColor: '#000', paddingTop: '10px'}}>
             <h3 style={{color: 'white'}}>ทั่วไป</h3>
           </div>
-          <div style={{width: '100%', backgroundColor: '#F7E6F0', paddingTop: '10px', borderRadius: '0 47px 47px 0'}}>
+          <div onClick={() => {window.location.href = "/setting-other"}} style={{cursor: 'pointer', width: '100%', backgroundColor: '#F7E6F0', paddingTop: '10px', borderRadius: '0 47px 47px 0'}}>
               <h3>อื่นๆ</h3>
           </div>
         </div>
@@ -29,7 +29,7 @@ function SettingGeneral() {
             <h2>ชื่อผู้ใช้งาน</h2>
           </div>
           <div style={{marginLeft: 'auto'}}>
-            <img src={require('../../assets/write.png')} width="50px" height="50px" alt="" />
+            <img src={require('../assets/write.png')} width="50px" height="50px" alt="" />
           </div>
         </div>
 
@@ -38,7 +38,7 @@ function SettingGeneral() {
             <h2>อีเมล</h2>
           </div>
           <div style={{marginLeft: 'auto'}}>
-            <img src={require('../../assets/write.png')} width="50px" height="50px" alt="" />
+            <img src={require('../assets/write.png')} width="50px" height="50px" alt="" />
           </div>
         </div>
 
@@ -47,26 +47,26 @@ function SettingGeneral() {
             <h2>รหัสผ่าน</h2>
           </div>
           <div style={{marginLeft: 'auto'}}>
-            <img src={require('../../assets/write.png')} width="50px" height="50px" alt="" />
+            <img src={require('../assets/write.png')} width="50px" height="50px" alt="" />
           </div>
         </div>
 
       </div>
       <div className='menu'>
         <div className='menu-item'>
-          <img src={require("../../assets/m1.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m1.png")} width='75px' height='75px' alt="" />
           <p>คลัง</p>
         </div>
         <div className='menu-item'>
-          <img src={require("../../assets/m2.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m2.png")} width='75px' height='75px' alt="" />
           <p>ประวัติ</p>
         </div>
         <div className='menu-item'>
-          <img src={require("../../assets/m3.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m3.png")} width='75px' height='75px' alt="" />
           <p>ตั้งค่า</p>
         </div>
         <div className='menu-item'>
-          <img src={require("../../assets/m4.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m4.png")} width='75px' height='75px' alt="" />
           <p>ออกเกม</p>
         </div>
       </div>

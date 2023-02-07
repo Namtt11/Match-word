@@ -1,5 +1,5 @@
 import React from 'react'
-import './styleProfile.css'
+import './style/styleProfile.css'
 
 function Profile1() {
   return (
@@ -11,7 +11,7 @@ function Profile1() {
       </div>
       <div className='rec-setting1'>
         <div style={{display: 'flex'}}>
-          <img src={require('../../assets/p.png')} width="103px" height="103px" style={{borderRadius: '25px'}} alt="" />
+          <img src={require('../assets/p.png')} width="103px" height="103px" style={{borderRadius: '25px'}} alt="" />
           <div className='' style={{display: 'flex', flexDirection: 'column', textAlign: 'left', marginLeft: '10px', marginTop: '6px', color: 'white', WebkitTextStroke: '2px black'}}>
               <h3 style={{fontSize: '45px'}}>User name</h3>
               <h6 style={{fontSize: '32px'}}>Point : 100</h6>
@@ -22,17 +22,17 @@ function Profile1() {
       <div className='exit'>
         <div style={{display: 'flex'}}>
           <div className='me-5' style={{marginLeft: 'auto'}}>
-              <img src={require('../../assets/r1.png')} width="50px" height="50px" alt="" />
+              <img src={require('../assets/r1.png')} width="50px" height="50px" alt="" />
           </div>
           <div className='me-2'>
-              <img src={require('../../assets/r2.png')} width="50px" height="50px" alt="" />
+              <img src={require('../assets/r2.png')} width="50px" height="50px" alt="" />
           </div>
         </div>
       </div>
       <div className='main'>
         <div style={{display: 'flex'}}>
           <div style={{display: 'flex', flexDirection: 'column'}}>
-            <img src={require('../../assets/p.png')} width="130px" height="130px" style={{borderRadius: '50%', borderStyle: 'solid', borderColor: '#507214', borderWidth: '6px'}} alt="" />
+            <img src={require('../assets/p.png')} width="130px" height="130px" style={{borderRadius: '50%', borderStyle: 'solid', borderColor: '#507214', borderWidth: '6px'}} alt="" />
             <p className='text-center' style={{fontSize: '24px'}}>Edit</p>
           </div>
           <div style={{marginLeft: '5rem',width: '100%'}}>
@@ -68,19 +68,19 @@ function Profile1() {
       </div>
       <div className='menu'>
         <div className='menu-item'>
-          <img src={require("../../assets/m1.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m1.png")} width='75px' height='75px' alt="" />
           <p>คลัง</p>
         </div>
         <div className='menu-item'>
-          <img src={require("../../assets/m2.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m2.png")} width='75px' height='75px' alt="" />
           <p>ประวัติ</p>
         </div>
         <div className='menu-item'>
-          <img src={require("../../assets/m3.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m3.png")} width='75px' height='75px' alt="" />
           <p>ตั้งค่า</p>
         </div>
         <div className='menu-item'>
-          <img src={require("../../assets/m4.png")} width='75px' height='75px' alt="" />
+          <img src={require("../assets/m4.png")} width='75px' height='75px' alt="" />
           <p>ออกเกม</p>
         </div>
       </div>
